@@ -48,7 +48,6 @@ export default function AuthorCard({ author, className = '' }: AuthorCardProps) 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary/80 transition-colors"
-                onClick={(e) => e.stopPropagation()}
               >
                 🌐
               </a>
@@ -60,7 +59,6 @@ export default function AuthorCard({ author, className = '' }: AuthorCardProps) 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary/80 transition-colors"
-                onClick={(e) => e.stopPropagation()}
               >
                 🐦
               </a>
@@ -72,7 +70,6 @@ export default function AuthorCard({ author, className = '' }: AuthorCardProps) 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary/80 transition-colors"
-                onClick={(e) => e.stopPropagation()}
               >
                 📷
               </a>
