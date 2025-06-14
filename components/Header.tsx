@@ -22,9 +22,9 @@ export default function Header() {
             </Link>
           </nav>
           
-          {/* Mobile menu button - converted to client component for interactivity */}
+          {/* Mobile menu placeholder - removed interactive elements for static generation */}
           <div className="md:hidden">
-            <div className="text-foreground hover:text-primary p-2">
+            <div className="text-foreground p-2">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>

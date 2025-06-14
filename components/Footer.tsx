@@ -37,14 +37,14 @@ export default function Footer() {
               <h3 className="font-semibold mb-4">Support</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="mailto:support@katesbooks.com" className="text-background/80 hover:text-background transition-colors">
-                    Contact Us
-                  </a>
+                  <span className="text-background/80">
+                    support@katesbooks.com
+                  </span>
                 </li>
                 <li>
-                  <a href="#" className="text-background/80 hover:text-background transition-colors">
+                  <span className="text-background/80">
                     Help Center
-                  </a>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -57,12 +57,12 @@ export default function Footer() {
               © 2024 Kate's Books. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="#" className="text-background/60 hover:text-background text-sm transition-colors">
+              <span className="text-background/60 text-sm">
                 Privacy Policy
-              </a>
-              <a href="#" className="text-background/60 hover:text-background text-sm transition-colors">
+              </span>
+              <span className="text-background/60 text-sm">
                 Terms of Service
-              </a>
+              </span>
             </div>
           </div>
         </div>
