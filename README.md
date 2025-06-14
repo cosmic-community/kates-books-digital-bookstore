@@ -1,4 +1,3 @@
-<!-- README_START -->
 # Kate's Books - Digital Bookstore
 
 A modern, responsive digital bookstore built with Next.js 15, featuring author profiles, book catalogs, sample chapters, and purchase tracking. This application showcases a complete e-commerce solution for digital books with a clean, professional design.
