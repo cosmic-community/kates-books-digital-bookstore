@@ -22,13 +22,13 @@ export default function Header() {
             </Link>
           </nav>
           
-          {/* Mobile menu button */}
+          {/* Mobile menu button - converted to client component for interactivity */}
           <div className="md:hidden">
-            <button className="text-foreground hover:text-primary p-2">
+            <div className="text-foreground hover:text-primary p-2">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
-            </button>
+            </div>
           </div>
         </div>
       </div>
